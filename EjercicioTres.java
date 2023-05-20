@@ -3,7 +3,7 @@ public class EjercicioTres {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Ingresa el radio del círculo: ");
+        System.out.println("Ingresa el radio del círculo: ");
         double radio = scanner.nextDouble();
 
         double area = Math.PI * radio * radio;

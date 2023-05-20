@@ -3,9 +3,9 @@ public class EjercicioCuatro {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Ingresa el primer número entero: ");
+        System.out.println("Ingresa el primer número entero: ");
         int Prinumero = scanner.nextInt();
-        System.out.print("Ingresa el segundo número entero: ");
+        System.out.println("Ingresa el segundo número entero: ");
         int Segunumero = scanner.nextInt();
 
         int suma = Prinumero + Segunumero;

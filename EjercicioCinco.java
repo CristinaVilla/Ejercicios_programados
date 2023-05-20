@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class EjercicioCinco {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Ingresa un número: ");
+        System.out.println("Ingresa un número: ");
         int numero = scanner.nextInt();
         int factorial = 1;
         for (int i = 1; i <= numero; i++) {
