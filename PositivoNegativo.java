@@ -5,6 +5,11 @@ public class PositivoNegativo {
 
         System.out.println("Ingrese un número: ");
         int numero = scanner.nextInt();
+
+        while(numero == 0){
+            System.out.println("Ingrese un número diferente a cero ");
+            numero = scanner.nextInt();
+        }
         if (numero > 0) {
             System.out.println("El número es positivo.");
         } else if (numero < 0) {
