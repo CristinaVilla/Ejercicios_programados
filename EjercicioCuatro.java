@@ -7,7 +7,7 @@ public class EjercicioCuatro {
         int Prinumero = scanner.nextInt();
 
          while(prinumero <= 0 ){
-            System.out.println("Ingrese nuevamento el primer numero ");
+            System.out.println("Ingrese nuevamento el primer numero: ");
             prinumero= scanner.nextInt();
         }
 
@@ -28,5 +28,7 @@ public class EjercicioCuatro {
         System.out.println("La resta es: " + resta);
         System.out.println("La división es: " + division);
         System.out.println("La multiplicación es: " + multiplicacion);
+
+        scanner.close();
     }
 }
