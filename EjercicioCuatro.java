@@ -5,8 +5,19 @@ public class EjercicioCuatro {
 
         System.out.println("Ingresa el primer número entero: ");
         int Prinumero = scanner.nextInt();
+
+         while(prinumero <= 0 ){
+            System.out.println("Ingrese nuevamento el primer numero ");
+            prinumero= scanner.nextInt();
+        }
+
         System.out.println("Ingresa el segundo número entero: ");
         int Segunumero = scanner.nextInt();
+
+        while(Segunumero <= 0 ){
+            System.out.println("Ingrese nuevamente el segundo numero ");
+            Segunumero= scanner.nextInt();
+        }
 
         int suma = Prinumero + Segunumero;
         int resta = Prinumero - Segunumero;
