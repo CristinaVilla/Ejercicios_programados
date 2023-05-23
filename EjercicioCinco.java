@@ -1,13 +1,19 @@
 import java.util.Scanner;
 public class EjercicioCinco {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Ingresa un número: ");
-        int numero = scanner.nextInt();
-        int factorial = 1;
-        for (int i = 1; i <= numero; i++) {
-            factorial *= i;
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Ingrese un numero entero");
+        int numero = input.nextInt();
+        while (numero <= 0){
+            System.out.println("Nuevamente ingrese un numero entero");
+            numero = input.nextInt();
         }
-        System.out.println("El factorial de " + numero + " es: " + factorial);
+        int factorial = 1;
+
+        while (numero != 0){
+            factorial=factorial*numero; numero--;
+        }
+        System.out.println("El resultado de la factorial es: " + factorial);
     }
 }

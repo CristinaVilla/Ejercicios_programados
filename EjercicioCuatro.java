@@ -6,9 +6,9 @@ public class EjercicioCuatro {
         System.out.println("Ingresa el primer número entero: ");
         int Prinumero = scanner.nextInt();
 
-         while(prinumero <= 0 ){
+         while(Prinumero <= 0 ){
             System.out.println("Ingrese nuevamento el primer numero: ");
-            prinumero= scanner.nextInt();
+            Prinumero= scanner.nextInt();
         }
 
         System.out.println("Ingresa el segundo número entero: ");
