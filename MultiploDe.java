@@ -1,13 +1,13 @@
 import java.util.Scanner;
 public class MultiploDe {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner line = new Scanner(System.in);
 
         System.out.println("Ingrese el primer número: ");
-        int numeroOne = scanner.nextInt();
+        int numeroOne = line.nextInt();
 
         System.out.println("Ingrese el segundo número: ");
-        int numeroTwo = scanner.nextInt();
+        int numeroTwo = line.nextInt();
 
         if (Multiplos(numeroOne, numeroTwo)) {
             System.out.println(numeroOne + " es múltiplo de " + numeroTwo);
