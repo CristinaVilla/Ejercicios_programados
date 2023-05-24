@@ -12,6 +12,8 @@ public class NumMayor {
         int mayor = MayorEs(primer, segundo);
 
         System.out.println("El número mayor es: " + mayor);
+
+        while ()
     }
     public static int MayorEs(int primernu, int segundonu) {
         if (primernu > segundonu) {
