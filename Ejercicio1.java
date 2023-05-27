@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class PositivoNegativo {
+public class Ejercicio1.2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

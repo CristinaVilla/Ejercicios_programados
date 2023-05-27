@@ -1,31 +1,33 @@
 import java.util.Scanner;
-    public class QuizUno{
-public static void main(String[] args){
-    Scanner input = new Scanner(System.in);
-    System.out.println("Ingrese el numero para las filas");
-    int num1 = input.nextInt();
 
-    while(num1 < 0 ){
-        System.out.println("Ingrese nuvamente el numero");
-        num1 =input.nextInt();
-    }
+public class QuizUno {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
 
-    System.out.println("Ingrese el numero para las columnas");
-    int num2 = input.nextInt();
+        System.out.println("Ingrese el número de filas: ");
+        int filas = input.nextInt();
 
-    while(num2 < 0 ){
-        System.out.println("Ingrese nuvamente el numero");
-        num2 = input.nextInt();
-    }
+        System.out.println("Ingrese el número de columnas: ");
+        int columnas = input.nextInt();
 
-    for (int i = 0; i < num1; i++) {
-        for (int j = 0; j < num2; j++) {
-            if (num2[j] < num1[j + 1]) {
-                otro = num2[j];
-                num2[j] = num2[j + 1];
-                num2[j + 1] = otro;
+        String[][] matriz = new String[filas][columnas];
+
+        System.out.println("Ingrese su nombre en cada posición de la matriz:");
+
+        for (int i = 0; i < filas; i++) {
+            for (int j = 0; j < columnas; j++) {
+                System.out.println("Ingrese el nombre en la posición [" + i + "][" + j + "]: ");
+                matriz[i][j] = input.next();
             }
         }
+
+        System.out.println("Matriz ingresada:");
+
+        for (int i = 0; i < filas; i++) {
+            for (int j = 0; j < columnas; j++) {
+                System.out.print(matriz[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
-  }
 }
