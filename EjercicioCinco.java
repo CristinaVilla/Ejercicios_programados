@@ -16,4 +16,3 @@ public class EjercicioCinco {
         }
         System.out.println("El resultado de la factorial es: " + factorial);
     }
-}

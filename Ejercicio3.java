@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class NumMayor {
+public class Ejercicio3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -12,8 +12,6 @@ public class NumMayor {
         int mayor = MayorEs(primer, segundo);
 
         System.out.println("El número mayor es: " + mayor);
-
-        while ()
     }
     public static int MayorEs(int primernu, int segundonu) {
         if (primernu > segundonu) {

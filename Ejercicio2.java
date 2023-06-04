@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class MultiploDe {
+public class Ejercicio2 {
     public static void main(String[] args) {
         Scanner line = new Scanner(System.in);
 
